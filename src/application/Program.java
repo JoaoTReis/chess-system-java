@@ -1,7 +1,9 @@
 package application;
 
+import boardgame.Board;
+
 public class Program {
     public static void main(String[] args) {
-        System.out.println("Hello word");
+        Board board = new Board(5,5);
     }
 }
